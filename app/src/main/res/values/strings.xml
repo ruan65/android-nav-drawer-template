@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Best App Ever</string>
+    <string name="action_settings">Settings</string>
+    <string name="test">How are you doing?????\nHello!!!</string>
+    <string name="title_activity_quiz">Title wanted</string>
+    <string name="btn_start_quiz">Go Somewhere</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- Preferences -->
+    <string name="pref_key_user_learned_drawer">user_learned_drawer</string>
+    <string name="not_first_time">notFirstTimeAppStarts</string>
+
+</resources>
