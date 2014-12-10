@@ -54,7 +54,7 @@ public abstract class BaseActivity extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_quiz, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
@@ -63,7 +63,6 @@ public abstract class BaseActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
-            Log.d("ml", "prefs: " + getSharedPreferences(getApplicationInfo().packageName, MODE_PRIVATE).getAll());
             return true;
         }
         return super.onOptionsItemSelected(item);
