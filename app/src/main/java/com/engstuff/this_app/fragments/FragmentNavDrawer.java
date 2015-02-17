@@ -1,4 +1,4 @@
-package com.engstuff.classiccomposers.fragments;
+package com.engstuff.this_app.fragments;
 
 
 import android.app.Activity;
@@ -11,12 +11,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.engstuff.classiccomposers.R;
+import com.engstuff.this_app.R;
 
 public class FragmentNavDrawer extends Fragment {
 
     private Activity activity;
-    private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mDrawerToggle;
 
     public FragmentNavDrawer() {}
@@ -35,7 +34,6 @@ public class FragmentNavDrawer extends Fragment {
 
     public void setUp(DrawerLayout layout, Toolbar toolbar) {
 
-        mDrawerLayout = layout;
         mDrawerToggle = new ActionBarDrawerToggle(
                 activity, layout, toolbar, R.string.drawer_open, R.string.drawer_close) {
 
@@ -52,10 +50,10 @@ public class FragmentNavDrawer extends Fragment {
             }
         };
 
-        mDrawerLayout.setDrawerListener(mDrawerToggle);
+        layout.setDrawerListener(mDrawerToggle);
 
         // very nice effect sandwich/rotate/arrow
-        mDrawerLayout.post(new Runnable() {
+        layout.post(new Runnable() {
             @Override
             public void run() {
                 mDrawerToggle.syncState();

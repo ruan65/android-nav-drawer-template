@@ -1,8 +1,8 @@
-package com.engstuff.classiccomposers.activities;
+package com.engstuff.this_app.activities;
 
 import android.os.Bundle;
 
-import com.engstuff.classiccomposers.R;
+import com.engstuff.this_app.R;
 
 public class RenameMeActivity extends BaseActivity {
 

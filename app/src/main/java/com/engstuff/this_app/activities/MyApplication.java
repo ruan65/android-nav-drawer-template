@@ -1,4 +1,4 @@
-package com.engstuff.classiccomposers.activities;
+package com.engstuff.this_app.activities;
 
 import android.app.Application;
 import android.view.ViewConfiguration;

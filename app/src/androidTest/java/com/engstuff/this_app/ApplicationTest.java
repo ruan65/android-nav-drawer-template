@@ -1,4 +1,4 @@
-package com.engstuff.classiccomposers;
+package com.engstuff.this_app;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

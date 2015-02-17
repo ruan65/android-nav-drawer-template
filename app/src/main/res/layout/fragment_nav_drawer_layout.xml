@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.engstuff.classiccomposers.fragments.FragmentNavDrawer"
+    tools:context="com.engstuff.this_app.fragments.FragmentNavDrawer"
     android:background="@color/primaryColorDarkTransparent">
 
 

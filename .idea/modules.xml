@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NavigationDrawerTemplateProject.iml" filepath="$PROJECT_DIR$/NavigationDrawerTemplateProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TemplateWithNavigationDrawer.iml" filepath="$PROJECT_DIR$/TemplateWithNavigationDrawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

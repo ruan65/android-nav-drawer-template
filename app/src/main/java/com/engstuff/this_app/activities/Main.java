@@ -1,10 +1,10 @@
-package com.engstuff.classiccomposers.activities;
+package com.engstuff.this_app.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.engstuff.classiccomposers.R;
+import com.engstuff.this_app.R;
 
 public class Main extends BaseActivity {
 

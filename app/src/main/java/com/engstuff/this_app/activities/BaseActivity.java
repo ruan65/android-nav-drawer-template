@@ -1,18 +1,17 @@
-package com.engstuff.classiccomposers.activities;
+package com.engstuff.this_app.activities;
 
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.engstuff.classiccomposers.R;
-import com.engstuff.classiccomposers.fragments.FragmentNavDrawer;
-import com.engstuff.classiccomposers.helpers.AppHelper;
+import com.engstuff.this_app.R;
+import com.engstuff.this_app.fragments.FragmentNavDrawer;
+import com.engstuff.this_app.helpers.AppHelper;
 
 
 public abstract class BaseActivity extends ActionBarActivity {
@@ -62,10 +61,7 @@ public abstract class BaseActivity extends ActionBarActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+        return id == R.id.action_settings ? true : super.onOptionsItemSelected(item);
     }
 
     /**

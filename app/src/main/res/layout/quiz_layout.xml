@@ -21,7 +21,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:layout="@layout/fragment_nav_drawer_layout"
-        android:name="com.engstuff.classiccomposers.fragments.FragmentNavDrawer"
+        android:name="com.engstuff.this_app.fragments.FragmentNavDrawer"
         tools:layout="@layout/fragment_nav_drawer_layout"/>
 
 </android.support.v4.widget.DrawerLayout>
